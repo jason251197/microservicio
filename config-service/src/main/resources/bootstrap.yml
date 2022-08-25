@@ -2,6 +2,8 @@ server:
   port: 8094
 
 spring:
+  profiles:
+    active: git
   cloud:
     config:
       server:
