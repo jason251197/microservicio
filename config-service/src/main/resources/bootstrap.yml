@@ -9,7 +9,9 @@ spring:
       server:
         git:
           uri: https://github.com/jason251197/microservicio.git
-          searchPath: config-data
+          search-paths: config-data
+        bootstrap: true
+      enabled: true
 
   security:
     user:
