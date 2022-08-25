@@ -1,4 +1,4 @@
-server.:
+server:
   port: 8094
 
 spring:
@@ -7,12 +7,9 @@ spring:
       server:
         git:
           uri: https://github.com/jason251197/microservicio.git
-          search-paths: config-data
-          #username: ${GIT_USER}
-          #password: ${GIT_PASSWORD}
-          default-label: master
+          searchPath: config-data
 
   security:
     user:
       name: root
-      password: $3cr3t
+      password: s3cr3t
